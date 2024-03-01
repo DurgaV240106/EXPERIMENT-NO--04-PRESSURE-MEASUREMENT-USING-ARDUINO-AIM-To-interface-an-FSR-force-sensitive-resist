@@ -45,6 +45,12 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 ****Where R= 1KΩ in this experiment 
 ****That is, the voltage is proportional to the inverse of the FSR resistance.
 
+### FIGURE -03 CIRCUIT DIAGRAM
+
+![Screenshot 2024-02-29 114216](https://github.com/DurgaV240106/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144870878/477f21c2-de80-4b2a-b30d-8d4bd0869c48)
+
+![Screenshot 2024-03-01 135634](https://github.com/DurgaV240106/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144870878/6b2a73c2-e2c4-4082-9a43-e53fdace2b15)
+
 
 
 
@@ -123,6 +129,7 @@ void loop()
  
  
  
+![308933792-e98bdf8a-69b7-455a-a65d-455cd9e1d111](https://github.com/DurgaV240106/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144870878/f00106cf-3e65-411e-9694-08ea13b3448b)
  
  
 
@@ -143,9 +150,10 @@ N is the total number of values
 
 For those unfamiliar with summation notation, the equation above may seem daunting, but when addressed through its individual components, this summation is not particularly complicated. The i=1 in the summation indicates the starting index, i.e. for the data set 1, 3, 4, 7, 8, i=1 would be 1, i=2 would be 3, and so on. Hence the summation notation simply means to perform the operation of (xi - μ)2 on each value through N, which in this case is 5 since there are 5 values in this data set.
 
-EX:           μ = (1+3+4+7+8) / 5 = 4.6        
-σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
-σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
+EX:        
+
+μ = (2+3+4+5+6+7+8+8+9+10) / 10 = 6.2
+σ = √[(1.05-6.2)2 + (2.02-6.2)2 + ... + (10-6.2)2)]/10 σ = √(26.5225+17.4724+9.6721+....+14.44)/10 = 0.92
 
 
 
