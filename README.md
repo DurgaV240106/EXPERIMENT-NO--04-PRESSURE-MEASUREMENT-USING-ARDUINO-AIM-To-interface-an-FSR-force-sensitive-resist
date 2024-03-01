@@ -150,6 +150,7 @@ For those unfamiliar with summation notation, the equation above may seem daunti
 EX:        
 
 μ = (2+3+4+5+6+7+8+8+9+10) / 10 = 6.2
+
 σ = √[(1.05-6.2)2 + (2.02-6.2)2 + ... + (10-6.2)2)]/10 σ = √(26.5225+17.4724+9.6721+....+14.44)/10 = 0.92
 
 
@@ -166,4 +167,6 @@ EX:
 
 
 
-### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
+### RESULTS : 
+
+Arduino uno is interfaced with FSR and output values are indicated on a graph.
