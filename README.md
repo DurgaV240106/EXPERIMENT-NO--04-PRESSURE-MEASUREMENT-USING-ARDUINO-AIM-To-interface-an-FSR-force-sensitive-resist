@@ -79,11 +79,11 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
+```
  NAME:DURGA V
  ROLL NO:212223230052
  DEPT AND YEAR:AI&DS(1 YEAR)
 
- ```
 int fsr;
 int LED= 7;
 void setup()
